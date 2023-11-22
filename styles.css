@@ -1,0 +1,25 @@
+#nombreWebContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nombreWeb{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+#isntructionsContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.isntructions{
+    font-size: 30px;
+    margin: 0;
+}
+.pInstructions{
+    margin: 0;
+    font-size: 25px;
+}

@@ -1,0 +1,1 @@
+grid = document.getElementById

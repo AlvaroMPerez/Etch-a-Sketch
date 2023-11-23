@@ -21,5 +21,41 @@
 }
 .pInstructions{
     margin: 0;
+    margin-bottom: 20px;
     font-size: 25px;
+}
+
+.btnRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnContenedor{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: flex-end;
+}
+button{
+    margin-bottom: 20px;
+}
+
+.gridContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(16,0fr);
+    gap: 1px;
+}
+.oneGrid{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    padding: 10px;
+
 }

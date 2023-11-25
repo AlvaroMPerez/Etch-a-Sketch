@@ -30,3 +30,10 @@ popupBtn.addEventListener("click", ()=>{
 popupBtnClose.addEventListener("click", ()=>{
     modal.close();
 })
+
+//Menu Select
+
+var selectGridSize = document.getElementById("gridSize");
+var selectedGrid = selectGridSize.value;
+
+console.log(selectedGrid);
